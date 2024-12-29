@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Example</title>
+  <link rel="stylesheet" href="event.css">  <!-- Link to the external CSS file -->
 </head>
+
 <body>
-    
+ 
+  <h1 class="head"></h1>
+    <div class="container" id="all">
+    <!-- <span class="hello">Click On One of these Boxes</span> -->
+    <!---in this upper onclick this is not a scalable thing on a long run as on big projects this is a wrong practice !>--> 
+   
+  <div class="box" id="box1" <!---onclick="alert('dont you touch this')"--></div>
+  
+  <div class="box" id="box2"></div>
+  <div class="box" id="box3"></div>
+  <div class="box"  id="box4"></div>
+
+ 
+
+
+</div>
 </body>
+
+<script src="event.js"></script>
+
+
 </html>
